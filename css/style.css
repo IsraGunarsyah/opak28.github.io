@@ -1,0 +1,851 @@
+body{
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: white;
+
+}
+
+.heading1{
+  font-family: 'Arvo',sans-serif;
+  position: absolute;
+  color: red;
+  font-size: 3rem;
+  bottom: 55%;
+  right: 60%;
+
+}
+
+.heading3{
+position: absolute;
+bottom: 75%;
+right: 70%;
+}
+
+.heading4{
+  font-family: 'ABeeZee',sans-serif;
+  position: absolute;
+  bottom: 45%;
+  right: 48%;
+}
+
+/*NAVBAR*/
+.navbar1{
+  background-color: #ECECEC;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+
+
+}
+
+.nav1{
+  margin-top: 100px;
+  font-family: 'Oswald',sans-serif;
+  color: black;
+  margin: 5px;
+  margin-left: 10px;
+  text-decoration-line: none;
+}
+
+
+.nav:hover{
+  color: white;
+}
+
+.logo{
+  position: absolute;
+  right: 91%;
+  width: 100px;
+}
+/*foto cewe*/
+.cewe{
+  width:100%;
+  background-image: linear-gradient(to right,grey,#FFFFFF);
+  margin-top: 25px;
+}
+/*SARAN*/
+.man{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 50px;
+  width:35rem;
+}
+
+.saran{
+  background-color: white;
+  padding-right: 100%;
+  padding-bottom: 35%;
+}
+
+.paragraf2{
+  position: absolute;
+  background-color: white;
+  padding-right: 10%;
+  padding-bottom: 4rem;
+  margin-left: 43rem;
+  margin-top: 100px;
+}
+
+.h1{
+  padding: 20px;
+  width: 30rem;
+  margin-left: 10px;
+}
+
+.h6{
+  margin-left: 35px;
+}
+
+/*CONSULTATION*/
+.consultasi{
+  position: absolute;
+  top: 270%;
+  padding-right: 70%;
+  padding-bottom: 10%;
+  background-color: #ECECEC;
+
+}
+.heading{
+  width: 200%;
+  margin-left: 60px;
+  margin-top: 100px;
+}
+
+.heading6{
+  margin-left: 60px;
+  width: 110%;
+}
+.consul{
+  position: absolute;
+  top: 20%;
+  width: 40%;
+  left: 55%;
+}
+
+/*DAFTAR CONSULTASI*/
+
+.paragraf4{
+  margin-top: 50%;
+  margin-left: 9%;
+}
+
+.heading11{
+  position: absolute;
+  top: 370%;
+  left: 15%;
+}
+.suster{
+    width: 70rem;
+    padding-bottom: 100px;
+}
+
+.kolom{
+  position: absolute;
+  top: 380%;
+  left: 15%;
+}
+
+.ultah{
+  position: absolute;
+  top: 392%;
+  left: 15%;
+  width: 14rem;
+}
+.number{
+  position:absolute;
+  top: 405%;
+  left: 15%;
+}
+
+.keluhan{
+  position: absolute;
+  top: 420%;
+  left: 12%;
+  width: 20%;
+}
+
+.button-81 {
+  position: absolute;
+  top: 435%;
+  left: 17%;
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-81:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+/*BUTTON*/
+.btn1{
+  background: #FBCA1F;
+ font-family: inherit;
+ padding: 1em 2.5em;
+ font-weight: 900;
+ font-size: 18px;
+ border: 3px solid black;
+  border-radius: 6em;
+ box-shadow: 0.1em 0.1em;
+  position: absolute;
+  bottom: 29%;
+  right: 79%;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn2{
+  position: absolute;
+  border: none;
+  bottom: 28%;
+  right: 65%;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ font-size: 17px;
+ text-transform: uppercase;
+ text-decoration: none;
+ padding: 1em 2.5em;
+ display: inline-block;
+ border-radius: 6em;
+ transition: all .2s;
+ border: none;
+ font-family: inherit;
+ font-weight: 500;
+ color: black;
+ background-color: white;
+}
+
+.btn1:hover{
+  transform: translate(-0.05em, -0.05em);
+ box-shadow: 0.15em 0.15em;
+}
+
+.btn1:active{
+  transform: translate(0.05em, 0.05em);
+   box-shadow: 0.05em 0.05em;
+}
+.btn2:hover{
+  transform: translateY(-3px);
+ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
+}
+
+.btn2:active{
+  transform: translateY(-1px);
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn2:after{
+  background-color: #fff;
+}
+
+.btn2:hover::after{
+  transform: scaleX(1.4) scaleY(1.6);
+ opacity: 0;
+}
+
+.btn3{
+position: absolute;
+top:80%;
+right: 64%;
+background-color: #eee;
+border: none;
+padding: 1rem;
+font-size: 1rem;
+width: 10em;
+border-radius: 1rem;
+color: #FFC300;
+box-shadow: 0 0.4rem #dfd9d9;
+cursor: pointer;
+}
+
+.btn3:active{
+  color: white;
+ box-shadow: 0 0.2rem #dfd9d9;
+ transform: translateY(0.2rem);
+}
+
+.btn3:hover:not(:disabled) {
+ background: #FFC300;
+ color: white;
+ text-shadow: 0 0.1rem #bcb4b4;
+}
+
+.btn3:disabled {
+ cursor: auto;
+ color: grey;
+}
+
+.kesehatan{
+  background-color: white;
+  padding-right: 100%;
+  padding-bottom: 50%;
+}
+.kesehatanGigi{
+  position: absolute;
+  box-shadow:  3px 5px 5px 3px;
+  margin-top: 100px;
+  right: 85%;
+  padding: 30px;
+  background-color: white;
+}
+.gigi{
+  width: 80px;
+  text-align: center;
+
+}
+
+.kesehatanParu{
+  position: absolute;
+  box-shadow:  3px 5px 5px 3px;
+  margin-top: 100px;
+  right: 70%;
+  padding: 30px;
+  padding-top: 10px;
+  background-color: white;
+}
+
+.paru{
+  width: 80px;
+  padding-top: 10px;
+}
+
+.kesehatanMata{
+  position: absolute;
+  box-shadow:  3px 5px 5px 3px;
+  margin-top: 100px;
+  right: 55%;
+  padding: 30px;
+  background-color: white;
+}
+
+.mata{
+  width: 80px;
+
+}
+
+.kesehatanKulit{
+  position: absolute;
+  box-shadow:  3px 5px 5px 3px;
+  margin-top: 25%;
+  right: 85%;
+  padding: 30px;
+  background-color: white;
+}
+
+.kulit{
+  width: 80px;
+}
+
+.vitamin{
+  position: absolute;
+  box-shadow:  3px 5px 5px 3px;
+  margin-top: 25%;
+  right: 70%;
+  padding: 30px;
+  padding-left: 40px;
+  padding-top: 15px;
+  background-color: white;
+}
+
+.obat{
+  width: 75px;
+}
+
+.covid{
+  position: absolute;
+  box-shadow:  3px 5px 5px 3px;
+  margin-top: 25%;
+  right: 55%;
+  padding: 30px;
+  padding-top: 10px;
+  padding-left: 35px;
+  background-color: white;
+}
+
+.copid{
+  width: 80px;
+}
+
+.jadwal{
+  position: absolute;
+  background-color: #D7A503;
+  padding:300px;
+  padding-bottom: 165px;
+  right: 70px;
+  top: 101%;
+}
+
+.heading1a{
+  position: absolute;
+  top: 10px;
+  left: 150px;
+  color: white;
+}
+
+.paragraf{
+  position: absolute;
+  top: 27%;
+  left:10%;
+  right: 10%;
+  color: white;
+}
+
+.waktu{
+  position: absolute;
+  top: 40%;
+  left:10%;
+  right: 10%;
+  color: white;
+}
+
+.waktu1{
+  position: absolute;
+  top: 40%;
+  left:35%;
+  right: 10%;
+}
+
+.waktu2{
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+.waktu3{
+  position: absolute;
+  top: 60%;
+  left:20%;
+}
+
+.istirahat{
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+
+.istirahat1{
+  position: absolute;
+  top: 45%;
+  left: 18%;
+}
+
+.istirahat2{
+  color: white;
+  position: absolute;
+  top: 65%;
+  left: 10%;
+}
+
+.istirahat3{
+  position: absolute;
+  top: 65%;
+  left: 18%;
+}
+
+.footer{
+  position: relative;
+
+}
+
+#footer{
+  text-align: center;
+  background-color: #C4C4C4;
+  padding: 7% 10%
+}
+/*RESPONSIF FOR PC 1400PX KEATAS*/
+@media(max-width:5000px) and (min-width:1400px){
+
+
+
+}
+
+/* RESPONSIF FOR MOBILE */
+@media (max-width:576px) and (min-width:356px) {
+  /*text*/
+  .heading1{
+    font-family: 'Arvo',sans-serif;
+    position: absolute;
+    color: red;
+    font-size:1.5rem;
+    bottom: 73%;
+    right: 60%;
+  }
+
+  .heading3{
+  position: absolute;
+  bottom: 83%;
+  right: 70%;
+  font-size: 1rem;
+  }
+
+  .heading4{
+    font-family: 'ABeeZee',sans-serif;
+    position: absolute;
+    bottom: 67%;
+    right: 30%;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+/* LOGO */
+.logo{
+  position: absolute;
+  right: 80%;
+  width: 100px;
+}
+    /*BUTTON*/
+    .btn1{
+      background: #FBCA1F;
+     font-family: inherit;
+     padding: 1em 2.5em;
+     font-weight: 900;
+     font-size: 12px;
+     border: 3px solid black;
+      border-radius: 6em;
+     box-shadow: 0.1em 0.1em;
+      position: absolute;
+      bottom: 60%;
+      right: 79%;
+      width: 100px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .btn2{
+      position: absolute;
+      border: none;
+      bottom: 60%;
+      right: 55%;
+      width: 100px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+     font-size: 10px;
+     text-transform: uppercase;
+     text-decoration: none;
+     padding: 1em 2.5em;
+     display: inline-block;
+     border-radius: 6em;
+     transition: all .2s;
+     border: none;
+     font-family: inherit;
+     font-weight: 500;
+     color: black;
+     background-color: white;
+    }
+
+    .btn1:hover{
+      transform: translate(-0.05em, -0.05em);
+     box-shadow: 0.15em 0.15em;
+    }
+
+    .btn1:active{
+      transform: translate(0.05em, 0.05em);
+       box-shadow: 0.05em 0.05em;
+    }
+    .btn2:hover{
+      transform: translateY(-3px);
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
+    }
+
+    .btn2:active{
+      transform: translateY(-1px);
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn2:after{
+      background-color: #fff;
+    }
+
+    .btn2:hover::after{
+      transform: scaleX(1.4) scaleY(1.6);
+     opacity: 0;
+    }
+
+    /*KESEHATAN*/
+    .kesehatan{
+      background-color: white;
+      padding-right: 100%;
+      padding-bottom: 100%;
+    }
+    .kesehatanGigi{
+      position: absolute;
+      box-shadow:  3px 5px 5px 3px;
+      margin-top: 90px;
+      right: 60%;
+      padding: 50px;
+      background-color: white;
+    }
+    .gigi{
+      width: 80px;
+      text-align: center;
+
+    }
+
+    .kesehatanParu{
+      position: absolute;
+      box-shadow:  3px 5px 5px 3px;
+      margin-top: 90px;
+      right: 10%;
+      padding: 50px;
+      padding-top: 28px;
+      background-color: white;
+    }
+
+    .paru{
+      width: 80px;
+      padding-top: 10px;
+    }
+
+    .kesehatanMata{
+      position: absolute;
+      box-shadow:  3px 5px 5px 3px;
+      margin-top: 70%;
+      right: 60%;
+      padding: 50px;
+      background-color: white;
+    }
+
+    .mata{
+      width: 80px;
+
+    }
+
+    .kesehatanKulit{
+      position: absolute;
+      box-shadow:  3px 5px 5px 3px;
+      margin-top: 70%;
+      right: 10%;
+      padding: 50px;
+      background-color: white;
+    }
+
+    .kulit{
+      width: 80px;
+    }
+
+    .vitamin{
+      position: absolute;
+      box-shadow:  3px 5px 5px 3px;
+      margin-top: 125%;
+      right: 60%;
+      padding: 50px;
+      padding-left: 55px;
+      padding-top: 15px;
+      background-color: white;
+    }
+
+    .obat{
+      width: 75px;
+    }
+
+    .covid{
+      position: absolute;
+      box-shadow:  3px 5px 5px 3px;
+      margin-top: 125%;
+      right: 10%;
+      padding: 50px;
+      padding-top: 10px;
+      padding-left: 50px;
+      background-color: white;
+    }
+
+    .copid{
+      width: 80px;
+    }
+
+    /*jadwal dokter*/
+    .jadwal{
+      position: absolute;
+      background-color: #D7A503;
+      padding:300px;
+      padding-left: 15.7rem;
+      padding-bottom: 165px;
+      left: 1px;
+      top: 200%;
+    }
+      /*SARAN*/
+      .man{
+      margin-left: 0px;
+      width:34.5rem;
+
+      }
+
+      .saran{
+        background-color: white;
+        margin-top: 180%;
+        padding-bottom: 35%;
+      }
+
+      .paragraf2{
+
+        width: 34.5rem;
+        background-color: #C4C4C4;
+        padding-left: 10px;
+        padding-bottom: 4rem;
+        margin-left: 0rem;
+        margin-top: 70%;
+      }
+
+      .h1{
+        padding: 20px;
+        width: 30rem;
+        margin-left: 10px;
+      }
+
+      .h6{
+        margin-left: 35px;
+      }
+
+      /*CONSULTATION*/
+      .consultasi{
+        width: 98%;
+        text-align: center;
+        left: 0px;
+        top: 410%;
+        padding-right: 0rem;
+        padding-bottom: 60%;
+        background-color: white;
+
+      }
+      .heading{
+        font-size: 2rem;
+        width: 100%;
+        padding-right: 90px;
+        margin-left:10px;
+        margin-top: 10px;
+      }
+
+      .heading6{
+        position: relative;
+        top: 20px;
+        font-size: 20px;
+        margin-left: 10px;
+        width: 90%;
+      }
+      .consul{
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        width: 90%;
+
+      }
+
+      /*DAFTAR KONSULTASI*/
+
+      .paragraf4{
+        margin-top: 220%;
+        margin-left: 0%;
+      }
+
+      .heading11{
+        position: absolute;
+        top: 523%;
+        left: 15%;
+      }
+      .suster{
+          width: 34.5rem;
+          padding-right: 0px;
+          padding-bottom: 100px;
+      }
+
+      .kolom{
+        position: absolute;
+        top: 529%;
+        left: 5%;
+      }
+
+      .ultah{
+        position: absolute;
+        top: 540%;
+        left: 5%;
+        width: 14rem;
+      }
+      .number{
+        position:absolute;
+        top: 551%;
+        left: 5%;
+      }
+
+      .keluhan{
+        position: absolute;
+        top: 565%;
+        left: 0%;
+        width: 100%;
+        padding-bottom: 100px;
+      }
+
+      .button-81 {
+        position: absolute;
+        top: 575%;
+        left: 35%;
+        background-color: #fff;
+        border: 0 solid #e2e8f0;
+        border-radius: 1.5rem;
+        box-sizing: border-box;
+        color: #0d172a;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: 1.1rem;
+        font-weight: 600;
+        line-height: 1;
+        padding: 1rem 1.6rem;
+        text-align: center;
+        text-decoration: none #0d172a solid;
+        text-decoration-thickness: auto;
+        transition: all .1s cubic-bezier(.4, 0, .2, 1);
+        box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+
+      .button-81:hover {
+        background-color: #1e293b;
+        color: #fff;
+      }
+
+      @media (min-width: 768px) {
+        .button-81 {
+          font-size: 1.125rem;
+          padding: 1rem 2rem;
+        }
+      }
+    /*FOOTER*/
+    #footer{
+      text-align: center;
+      margin-top:30%;
+      background-color: #C4C4C4;
+      padding: 7% 10%
+
+  }
